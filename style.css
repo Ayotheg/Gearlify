@@ -468,8 +468,8 @@ html,body{
   .head{
     width: 3px;
     margin-right: 900px;
-    padding-right: 900px;
-    margin-left: 50px;
+    padding-right: 500px;
+    margin-left: 60px;
   }
 
   .main{
