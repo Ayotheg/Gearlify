@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -47,7 +48,7 @@ ul{
 
 
 ul,li{
-    font-size:x-large;
+  font-size:x-large;
    color: rgb(14, 155, 143);
    list-style-type: none;
    font-family: sans-serif;
@@ -232,7 +233,7 @@ min-width: 400px;
   color: #000000;
   font-family: Montserrat,sans-serif;
   font-size: 15px;
-  margin-left: 50px;
+  margin-left: -400px;
   padding-top: 180px;
 
 
@@ -457,8 +458,17 @@ html,body{
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  overflow-x:hidden;
+
 }
+
+ul,li{
+  width: 5px;
+  margin-left: 50px;
+  gap: 20px;
+
+}
+
 
 
   .sec .marquee .form{
@@ -466,7 +476,7 @@ html,body{
   }
 
   .head{
-    width: 2px;
+    width: 3px;
     margin-right: 900px;
     padding-right: 500px;
     margin-left: 60px;
@@ -571,5 +581,130 @@ html,body{
 
 }
 
+@media (min-width:300px){
+
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+
+}
+
+ul,li{
+  width: 3px;
+  margin-left: -10px;
+  
+}
+
+
+  .sec .marquee .form{
+    width: 80%;
+  }
+
+  .head{
+    width: 1px;
+    margin-right: 1000px;
+    padding-right: 1000px;
+    
+    
+  }
+
+  .main{
+    width: 100%;
+    display:grid;
+  }
+
+  .marquee .form {
+    margin: 5%;
+    display: flex-box;
+  }
+
+  header{
+    margin: 80px;
+  }
+
+
+.img{
+  width: 25%;
+  
+}
+
+.title{
+  margin: 40%;
+  margin-left: -120px;
+
+
+}
+
+.sub{
+    margin-top: 130px;
+    padding-left: -50px;
+    padding-right: 50px;
+    
+}
+
+.title1{
+  margin: 40%;
+  margin-left: -310px;
+  font-size: 40px;
+}
+
+.sub1{
+  margin-top: 50px;
+  padding-left: 55px;
+}
+
+.title2{
+  margin: 10%;
+  margin-left: 30px;
+  font-size: 50px;
+
+}
+
+.sub2{
+  font-size: 15px;
+  padding-bottom: 150px;
+  
+}
+
+.title3{
+  margin: 10%;
+  margin-left: 30px;
+  font-size: 50px;
+}
+
+.sub3{
+  font-size: 15px;
+}
+
+.title4{
+  margin: 10%;
+  margin-left: -20px;
+  font-size:40px;
+}
+
+.foot{
+  padding: 4%;
+  width: 100%;
+}
+
+.diva{
+     margin-left: -5%;
+     width: 40%;
+}
+
+.ft .p
+{
+  width: 10px;
+  margin-top: -80px;
+  padding-top: -80px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin-left: -50px;
+}
+
+}
 
 
